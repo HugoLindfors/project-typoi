@@ -1,0 +1,395 @@
+﻿
+@{
+    ViewBag.Title = "Sida 1";
+}
+
+<div class="container-fluid p-0 m-0">
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h1>
+                Algebra
+            </h1>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            @Html.ActionLink("Bakåt", "Hem", "Týpoi", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Framåt", "S2", "Týpoi", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Regler
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Regler-->
+            <div class="row">
+                <div class="col-6 p-0 m-0">
+                    <img src="/Img/AlgebraRegel1.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel1", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+
+                    <br />
+
+                    <img src="/Img/AlgebraRegel2.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel2", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+
+                    <br />
+
+                    <img src="/Img/AlgebraRegel3.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel3", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-6 p-0 m-0">
+                    <img src="/Img/AlgebraRegel4.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel4", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                    <br />
+                    <img src="/Img/AlgebraRegel5.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel5", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                    <br /><br /><br />
+                    <img src="/Img/AlgebraRegel6.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel6", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                    <br />
+                    <img src="/Img/AlgebraRegel7.jpg" />
+                    @using (Html.BeginForm("AlgebraRegel7", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Andragradsekvationer
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Andragradsekvationer-->
+            <div class="row">
+                <div class="col-6 p-0 m-0">
+                    <h2 class="text-center">PQ-formeln</h2>
+
+                    <img src="/Img/AlgebraRegelPQ.jpg" />
+
+                    @using (Html.BeginForm("AlgebraRegelPQ", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("p: ")
+                        <br />
+                        @Html.TextBox("p")
+                        <br />
+                        @Html.Label("q: ")
+                        <br />
+                        @Html.TextBox("q")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-6 p-0 m-0">
+                    <h2 class="text-center">ABC-formeln</h2>
+
+                    <img src="/Img/AlgebraRegelABC.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h1>
+                Aritmetik
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Prefix
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Prefix-->
+            <div class="row">
+                <div class="col-12">
+                    <img src="\Img\Prefix.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Potenser
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Potener-->
+            <div class="row">
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel1.jpg">
+
+                    @using (Html.BeginForm("PotensRegel1", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        @Html.Label("y: ")
+                        <br />
+                        @Html.TextBox("y")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel2.jpg">
+
+                    @using (Html.BeginForm("PotensRegel2", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        @Html.Label("y: ")
+                        <br />
+                        @Html.TextBox("y")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel3.jpg">
+                    @using (Html.BeginForm("PotensRegel3", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        @Html.Label("y: ")
+                        <br />
+                        @Html.TextBox("y")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                    </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel4.jpg">
+
+                    @using (Html.BeginForm("PotensRegel4", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel5.jpg">
+
+                    @using (Html.BeginForm("PotensRegel5", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel6.jpg">
+
+                    @using (Html.BeginForm("PotensRegel6", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("b: ")
+                        <br />
+                        @Html.TextBox("b")
+                        <br />
+                        @Html.Label("x: ")
+                        <br />
+                        @Html.TextBox("x")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel7.jpg">
+
+                    @using (Html.BeginForm("PotensRegel7", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        @Html.Label("n: ")
+                        <br />
+                        @Html.TextBox("n")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+                <div class="col-3 p-0 m-0">
+                    <img src="\Img\PotensRegel8.jpg">
+
+                    <p>(Förutsatt att a ≠ 0, i vilket fall det är odefinerat)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Geometrisk summa
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Geometrisk summa-->
+            <div class="row">
+                <div class="col-12">
+                    <img src="\Img\GeometriskSumma.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-md-block d-none sidebar p-4 m-0">
+            <h5>
+                Logaritmer
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Logaritmer-->
+            <div class="row">
+                <div class="col-12">
+                    <img src="\Img\Logaritmer.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-lg-block d-none sidebar p-4 m-0">
+            <h5>
+                Absolutbelopp
+            </h5>
+        </div>
+        <div class="col-md-9 col-12 content p-4 m-0">
+            <!--Absolutbelopp-->
+            <div class="row">
+                <div class="col-12">
+                    <img src="\Img\Absolutbelopp.jpg">
+
+                    @using (Html.BeginForm("Absolutbelopp", "Týpoi", FormMethod.Post))
+                    {
+                        @Html.Label("a: ")
+                        <br />
+                        @Html.TextBox("a")
+                        <br />
+                        <input type="submit" value="Räkna" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
